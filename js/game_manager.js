@@ -141,7 +141,7 @@ GameManager.prototype.move = function (direction) {
 
           // The mighty 17 tile
           if (merged.value === 17) self.won = true;
-          if (merged.value === 20) Math.random() < 0.9968 ? self.score+= 0 : self.over = true;
+          if (merged.value === 20) Math.random() < 0.996875 ? self.score+= 0 : self.over = true;
         } else {
           self.moveTile(tile, positions.farthest);
         }
